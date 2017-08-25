@@ -1,5 +1,6 @@
 {
     "name": "kimtooflex/envswitch",
+    "version": "1.0.0",
     "autoload": {
         "psr-0" : {
             "kimtooflex\\envswitch" : "autoload.php"
