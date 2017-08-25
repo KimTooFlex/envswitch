@@ -1,54 +1,15 @@
-# envswitch.php
- Code once, host anywhere, run everywhere 
- 
+Composer Library Template
+=========================
 
-**envswitch.php** is a fast & flexible environment switching library for PHP 5.X+
+If you are trying to create a new PHP Composer library, whether it will be going to submitted to packagist.org or just in your Github account, this template of files will surely help you make the process a lot easier and faster.
 
-*  Define multiple production or development servers 
-*  Callback compatibility
-*  No Server limits 
+Features
+--------
 
-## Getting started
+* PSR-4 autoloading compliant structure
+* Unit-Testing with PHPUnit
+* Comprehensive Guides and tutorial
+* Easy to use to any framework or even a plain php file
 
-1. PHP 5.x.x is required
-2. Install envswitch using [Composer](#composer-installation) (recommended)
- 
-## Composer Installation
 
-1. Get [Composer](http://getcomposer.org/)
-2. Require Klein with `php composer.phar require kimtooflex/envswitch`
-3. Add the following to your application's main PHP file: `'vendor/kimtooflex/envswitch/autoload.php';`
-
-## Example
-
-*Hello World* - Obligatory hello world example (one server)
-
-```php
-<?php
-require 'vendor/kimtooflex/envswitch/autoload.php';
-
-EnvSwitch::setEnv("127.0.0.2",
-          function() {
-              die("Hello world, this is development environment");
-          },
-          function() {
-               die("Hello world, this is production environment");
-          }
-);
-```
-
-*Example 1* - Respond to many servers
-
-```php
-<?php
-require 'vendor/kimtooflex/envswitch/autoload.php';
-
-EnvSwitch::setEnv("127.0.0.2,localhost",
-          function() {
-              die("Hello world, this is development environment");
-          },
-          function() {
-               die("Hello world, this is production environment");
-          }
-);
-```
+I encourage that you put more information on this readme file instead of leaving it as is. See [http://www.darwinbiler.com/designing-and-making-the-readme-file-for-your-github-repository/](How to make a README file) for more info.
