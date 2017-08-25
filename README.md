@@ -26,7 +26,7 @@
 
 ```php
 <?php
-require_once __DIR__ . '/vendor/autoload.php';
+equire 'vendor/kimtooflex/envswitch/autoload.php';
 
 EnvSwitch::setEnv("127.0.0.2",
           function() {
@@ -42,7 +42,7 @@ EnvSwitch::setEnv("127.0.0.2",
 
 ```php
 <?php
-require_once __DIR__ . '/vendor/autoload.php';
+equire 'vendor/kimtooflex/envswitch/autoload.php';
 
 EnvSwitch::setEnv("127.0.0.2,localhost",
           function() {
