@@ -1,4 +1,4 @@
-<?php namespace kimtooflex;
+<?php namespace envswitch;
 
 /**
 *  A sample class
