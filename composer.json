@@ -4,5 +4,11 @@
         "psr-0" : {
             "kimtooflex\\envswitch" : "src"
         }
+    },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/KimTooFlex/envswitch"
     }
+]
 }
