@@ -1,6 +1,6 @@
 <?php
 
-namespace kimtooflex\envswich;
+//namespace kimtooflex\envswich;
 
 /**
  * A terribly useful class
