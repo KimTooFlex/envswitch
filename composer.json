@@ -18,7 +18,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "kimtooflex\\envswitch\\": "src/"
+            "envswitch\\kimtooflex\\": "src/"
         }
     }
 }
