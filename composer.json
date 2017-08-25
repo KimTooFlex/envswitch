@@ -1,10 +1,14 @@
 {
     "name": "kimtooflex/envswitch",
-    "version": "1.0.0",
+    "description": " Code once, host anywhere, run everywhere.",
+    "keywords": ["kimtooflex", "environment", "bunifu", "switch"],
     "autoload": {
-        "psr-0" : {
-            "kimtooflex\\envswitch" : "autoload.php"
-        }
+      "psr-4": {
+         "envswitch\\": "src/envswitch/"
+      }
+     },
+    "require": {
+      "php": ">=5.3.0"
     },
     "repositories": [
     {

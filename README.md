@@ -1,5 +1,5 @@
 # envswitch.php
- [Code once run everywhere] 
+ Code once, host anywhere, run everywhere 
  
 
 **envswitch.php** is a fast & flexible environment switching library for PHP 5.X+

@@ -1,9 +1,17 @@
 <?php
  
 /**
- * A terribly useful class
+ * Klein (klein.php) - A fast & flexible router for PHP
+ *
+ * @author      Kipngetich Kimutai <kimtooflex@gmail.com>
+ * @copyright   (c) 2017 kimuati kipngetich
+ * @link        https://github.com/KimTooFlex/envswitch
+ * @license     MIT
  */
-class EnvSwitch
+ 
+ namespace envswitch;
+
+class Request
 {
 
   public static  function setEnv($domain,$Devcallback,$prodCallback)
