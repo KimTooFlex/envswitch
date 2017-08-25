@@ -2,18 +2,17 @@
  [Code once run everywhere] 
  
 
-**envswitch.php** is a fast & flexible environment switching library for PHP 5.3+
+**envswitch.php** is a fast & flexible environment switching library for PHP 5.X+
 
 *  Define multiple production or development servers 
 *  Callback compatibility
-*  Server limits => [2500+ requests/second] 
+*  No Server limits 
 
 ## Getting started
 
 1. PHP 5.x.x is required
 2. Install envswitch using [Composer](#composer-installation) (recommended)
-3. (Optional) Throw in some [APC](http://pecl.php.net/package/APC) for good measure
-
+ 
 ## Composer Installation
 
 1. Get [Composer](http://getcomposer.org/)
