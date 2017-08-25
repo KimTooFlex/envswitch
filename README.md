@@ -25,6 +25,7 @@
 
 ```php
 <?php
+ use \envswitch\EnvSwitch;
  
 EnvSwitch::setEnv("127.0.0.2",
           function() {
