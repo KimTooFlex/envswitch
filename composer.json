@@ -2,7 +2,7 @@
     "name": "kimtooflex/envswitch",
     "autoload": {
         "psr-0" : {
-            "kimtooflex\\envswitch" : "src"
+            "kimtooflex\\envswitch" : "autoload.php"
         }
     },
     "repositories": [
