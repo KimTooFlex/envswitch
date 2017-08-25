@@ -9,9 +9,9 @@
  * @license     MIT
  */
  
- namespace envswitch;
+ namespace kimtooflex;
 
-class Request
+class EnvSwitch
 {
 
   public static  function setEnv($domain,$Devcallback,$prodCallback)
