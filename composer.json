@@ -4,7 +4,7 @@
     "keywords": ["kimtooflex", "environment", "bunifu", "switch"],
     "autoload": {
       "psr-4": {
-         "envswitch\\": "src/envswitch/"
+         "kimtooflex\\": "src/envswitch/"
       }
      },
     "require": {
