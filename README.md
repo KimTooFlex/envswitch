@@ -17,7 +17,7 @@
 
 1. Get [Composer](http://getcomposer.org/)
 2. Require Klein with `php composer.phar require kimtooflex/envswitch`
-3. Add the following to your application's main PHP file: `'vendor/kimtooflex/envswitch/autoload.php';`
+3. Add the following to your application's main PHP file: `use \envswitch\EnvSwitch;`
 
 ## Example
 
@@ -25,8 +25,7 @@
 
 ```php
 <?php
-require 'vendor/kimtooflex/envswitch/autoload.php';
-
+ 
 EnvSwitch::setEnv("127.0.0.2",
           function() {
               die("Hello world, this is development environment");
@@ -41,7 +40,7 @@ EnvSwitch::setEnv("127.0.0.2",
 
 ```php
 <?php
-require 'vendor/kimtooflex/envswitch/autoload.php';
+use \envswitch\EnvSwitch;
 
 EnvSwitch::setEnv("127.0.0.2,localhost",
           function() {
