@@ -2,13 +2,20 @@
     "name": "kimtooflex/envswitch",
     "description": " Code once, host anywhere, run everywhere.",
     "keywords": ["kimtooflex", "environment", "bunifu", "switch"],
-    "autoload": {
-      "psr-4": {
-         "kimtooflex\\": "src/envswitch/"
-      }
-     },
+    "authors": [
+        {
+            "name": "Kimutai Kipngetich",
+            "email": "kimtooflex@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "require": {
-      "php": ">=5.3.0"
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "kimtooflex": "src/"
+        }
     },
     "repositories": [
     {

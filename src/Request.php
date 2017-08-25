@@ -9,8 +9,8 @@
  * @license     MIT
  */
  
- namespace kimtooflex;
-
+namespace kimtooflex;
+ 
 class EnvSwitch
 {
 
