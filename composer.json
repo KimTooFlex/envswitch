@@ -1,5 +1,6 @@
 {
     "name": "kimtooflex/envswitch",
+    "version": "1.0.0",
     "description": "Code once, host anywhere, run everywhere",
     "keywords": ["template", "composer", "package","kimtooflex", "environment", "bunifu", "switch"],
     "license": "MIT",
