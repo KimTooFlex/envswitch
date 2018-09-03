@@ -1,6 +1,5 @@
 {
-    "name": "kimtooflex/envswitch",
-    "version": "1.0.0",
+    "name": "kimtooflex/envswitch", 
     "description": "Code once, host anywhere, run everywhere",
     "keywords": ["template", "composer", "package","kimtooflex", "environment", "bunifu", "switch"],
     "license": "MIT",
@@ -9,14 +8,15 @@
             "name": "kipngetich kimutai",
             "email": "kimtooflex@gmail.com"
         }
-    ],
-    "type": "project",
+    ], 
     "require": {
 		"php": ">=5.4"
     },
-	"require-dev": {
+    "minimum-stability": "stable",
+    "require-dev": {
 		"phpunit/phpunit": "5.2.*"
-    },
+    }
+	,
 	"autoload": {
         "psr-4": {
             "envswitch\\": "src/"
